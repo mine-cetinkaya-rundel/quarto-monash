@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: eba9ac3a-fd2b-490f-857c-9b7136e60a34
+      url: 'https://mine.quarto.pub/quarto-monash'
