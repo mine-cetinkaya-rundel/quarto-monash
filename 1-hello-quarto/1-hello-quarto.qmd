@@ -1,6 +1,6 @@
 ---
 title: "Hello Quarto"
-subtitle: "Hello Quarto: A World of Possibilities (for Reproducible Publishing)"
+subtitle: "Hello Quarto: A World of Possibilities<br>(for Reproducible Publishing)"
 institute: "Duke University + Posit"
 author: "Dr. Mine Çetinkaya-Rundel"
 date: "2023-06-06"
@@ -33,75 +33,19 @@ library(countdown)
 
 ## While you wait for the workshop to begin... {.smaller}
 
--   Download and install the latest versions of R, RStudio, and Quarto:
-
-    -   R: <https://cran.r-project.org>
-    -   RStudio: <https://posit.co/download/rstudio-desktop>
-    -   Quarto: <https://quarto.org/docs/get-started>
-
--   Install the following packages:
-
-```{r}
-#| label: pkg-list
-#| eval: false
-
-pkg_list <- c("tidyverse", "gt", "ggthemes", "palmerpenguins", "quarto", "here")
-install.packages(pkg_list)
-```
-
--   Download `exercises.zip` at <https://mine.quarto.pub/quarto-monash/exercises.zip> and unzip it on your Desktop or somewhere you can easily locate on your computer. Then, go to RStudio \> File \> New Project \> Existing Directory and navigate to the unzipped `exercises` folder and create an RStudio project in there and open it.
-
-Or, click [here](https://posit.cloud/spaces/377666/join?access_code=kp0V37Moc2WynUu8xZc_9c-sGFuEAqfDvXdhWTEX) to join the Posit Cloud space for the workshop.
-
-::: aside
-A few of the features we'll demo may not work on Posit Cloud since the Quarto version is a bit behind, but you should be able to follow \>95% of the workshop there.
-:::
+Go to <https://mine.quarto.pub/quarto-monash/pre-work.html> and follow the instructions.
 
 # Welcome
 
-## Room info {.smaller}
+## About me
 
--   WiFi: Curio Meeting / 1820
+-   Mine Çetinkaya-Rundel
 
--   Emergency exits behind you
+-   Professor of the Practice, Duke University - Statistical Science
 
--   Restrooms: Out the door and turn right, then men's to the left, women's to the right
+-   Developer Educator, Posit
 
-## Code of Conduct {.smaller}
-
-> The American Statistical Association (ASA) is committed to providing an atmosphere in which personal respect and intellectual growth are valued and the free expression and exchange of ideas are encouraged. Consistent with this commitment, it is the policy of the ASA that all participants in ASA activities enjoy a welcoming environment free from unlawful discrimination, harassment, and retaliation. We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
-
-::: aside
-[ASA Code of Conduct](https://www.amstat.org/meetings/code-of-conduct)
-:::
-
-## Expected Behavior {.smaller}
-
-> -   Model and support the norms of respect necessary to promote the conditions for healthy exchange of scientific ideas.
->
-> -   In speech or conduct, do not insult or disparage other participants.
->
-> -   Be conscious of hierarchical structures, specifically the existence of stark power differentials between students, early career statisticians and established career statisticians---noting that fear of retaliation from more established statisticians can make it difficult for students and early career statisticians to express discomfort, rebuff unwelcome advances, and report violations of the conduct policy.
->
-> -   Be sensitive to indications that may suggest that individuals are feeling unwelcome.
-
-::: aside
-[ASA Code of Conduct](https://www.amstat.org/meetings/code-of-conduct)
-:::
-
-## Teaching team
-
--   **Instructor:** Mine Çetinkaya-Rundel
-
-    -   Professor of the Practice, Duke University - Statistical Science
-
-    -   Developer Educator, Posit
-
--   **TA:** Tracy Teal
-
-    -   Open Source Program Director, Posit
-
--   **Both:** R Markdown users/educators for 10+ years, Quarto users/educators for 1+ years
+-   R Markdown users/educators for 10+ years, Quarto users/educators for 1+ years
 
 ## About you
 
@@ -112,7 +56,7 @@ Meet 1-2 people around you!
 ```{r}
 #| echo: false
 
-countdown(minutes = 2)
+countdown(minutes = 1)
 ```
 
 ## Workshop structure
@@ -123,14 +67,11 @@ countdown(minutes = 2)
 
 -   **Your turn:** Exercises
 
-## Getting help
+## Getting help / questions
 
--   During **my turn** and **our turn** segments -- raise your hand
+-   Don't hesitate to raise your hand to ask a question throughout the workshop
 
--   During **your turn** segments -- also feel free to raise your hand for questions but use the stickies to signal:
-
-    -   Pink: I'd like some help / I'm stuck / I'm lost
-    -   Green: I'm done
+-   I might be able to answer / help on the spot, or wait till the next "your turn" break to do so
 
 # Hello Quarto
 
@@ -262,7 +203,7 @@ Open `hello-penguins.qmd` in RStudio and with the visual editor. Render the docu
 ```{r}
 #| echo: false
 
-countdown(minutes = 10)
+countdown(minutes = 5)
 ```
 
 # Quarto CLI
@@ -399,23 +340,6 @@ library(quarto)
 
 quarto_render("document.qmd") # defaults to html
 quarto_render("document.qmd", output_format = "pdf")
-```
-
-## Your turn
-
-::: task
--   Open the last .qmd file you were working on in RStudio.
--   Compare behavior of rendering with
-    -   RStudio \> Render,
-    -   using the CLI with `quarto render`, and
-    -   in the R console via `quarto::quarto_render()`.
--   If you're an RStudio user, brainstorm why you might still want to know about the other two ways of rendering Quarto documents.
-:::
-
-```{r}
-#| echo: false
-
-countdown(minutes = 3)
 ```
 
 # Quarto formats

@@ -1,6 +1,6 @@
 ---
 title: "Presentations"
-subtitle: "Hello Quarto: A World of Possibilities (for Reproducible Publishing)"
+subtitle: "Hello Quarto: A World of Possibilities<br>(for Reproducible Publishing)"
 institute: "Duke University + Posit"
 author: "Dr. Mine Çetinkaya-Rundel"
 date: "2023-06-06"
@@ -82,7 +82,7 @@ Pick up where we left off and
 ```{r}
 #| echo: false
 
-countdown(minutes = 15)
+countdown(minutes = 5)
 ```
 
 ## Our turn

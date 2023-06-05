@@ -1,6 +1,6 @@
 ---
 title: "Documents"
-subtitle: "Hello Quarto: A World of Possibilities (for Reproducible Publishing)"
+subtitle: "Hello Quarto: A World of Possibilities<br>(for Reproducible Publishing)"
 institute: "Duke University + Posit"
 author: "Dr. Mine Çetinkaya-Rundel"
 date: "2023-06-06"
@@ -231,7 +231,7 @@ RStudio + VSCode provide rich tab-completion - start a word and tab to complete,
 
 ::: task
 -   Open `hello-penguins.qmd` in RStudio.
--   Try <kbd>`Ctrl + space`</kbd> to see the available YAML options.
+-   Try <kbd>`Ctrl + space`</kbd> to see the available document YAML options.
 -   Try out the tab-completion of any options you remember.
 -   You can use the [HTML reference](https://quarto.org/docs/reference/formats/html.html) as needed.
 :::
@@ -657,15 +657,15 @@ head(penguins)
 
 **Output:**
 
-+-----------+-----------+----------------------+
-| Fruit     | Price     | Advantages           |
-+===========+===========+======================+
-| Bananas   | \$1.34    | -   built-in wrapper |
-|           |           | -   bright color     |
-+-----------+-----------+----------------------+
-| Oranges   | \$2.10    | -   cures scurvy     |
-|           |           | -   tasty            |
-+-----------+-----------+----------------------+
++------------+------------+----------------------+
+| Fruit      | Price      | Advantages           |
++============+============+======================+
+| Bananas    | \$1.34     | -   built-in wrapper |
+|            |            | -   bright color     |
++------------+------------+----------------------+
+| Oranges    | \$2.10     | -   cures scurvy     |
+|            |            | -   tasty            |
++------------+------------+----------------------+
 
 : Sample grid table.
 
