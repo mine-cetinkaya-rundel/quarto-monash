@@ -1,0 +1,8 @@
+---
+title: "Markdown syntax"
+format: html
+---
+
+1.  Add an image link to a web image you have chosen and a local image.
+
+2.  Use any markdown syntax that you can recall from the slides or refresh your memory from <https://quarto.org/docs/authoring/markdown-basics.html>.

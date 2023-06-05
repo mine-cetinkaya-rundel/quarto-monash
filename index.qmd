@@ -1,0 +1,31 @@
+---
+title: "Hello Quarto - A World of Possibilities (for Reproducible Publishing)"
+subtitle: "Monash University - 2023"
+---
+
+Quarto is the next generation of R Markdown for publishing, including dynamic and static documents and multi-lingual programming language support. With Quarto you can create documents, books, presentations, blogs or other online resources. This workshop will introduce you to authoring Quarto documents using RStudio Visual Editor, which provides a user interface for editing all of Pandoc markdown. You will learn to create static documents as well as slide presentations. The workshop will also introduce you to Quarto projects which you can use to build websites and write manuscripts, blogs, and books. Finally, you will learn various ways to deploy and publish your Quarto projects on the web.
+
+🗓️ Tuesday, June 6
+
+🕣 11:00 - 15:00
+
+🏢 St. Louis Union Station Hotel
+
+| Time          | Module                            |
+|---------------|-----------------------------------|
+| 11:00 - 11:30 | [Hello Quarto](1-hello-quarto/)   |
+| 11:30 - 12:30 | [Documents](2-documents/)         |
+| 12:30 - 13:30 | Lunch                             |
+| 13:30 - 13:45 | [Presentations](3-presentations/) |
+| 13:45 - 14:00 | [Articles](4-articles/)           |
+| 14:00 - 15:00 | [Projects](5-projects/)           |
+
+: {tbl-colwidths="\[25,75\]"}
+
+# Instructor
+
+[Mine Çetinkaya-Rundel](https://mine-cr.com/) is a Professor of the Practice at Duke University and a Developer Educator at a Posit, PBC. Mine's work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and underrepresented minorities. She is a Fellow of the ASA and Elected Member of the ISI as well as the winner of the 2021 Robert V. Hogg Award for For Excellence in Teaching Introductory Statistics.
+
+------------------------------------------------------------------------
+
+![](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

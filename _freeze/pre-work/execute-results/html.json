@@ -1,0 +1,16 @@
+{
+  "hash": "3adc246d3ee38a007f24011e2c63feea",
+  "result": {
+    "markdown": "---\ntitle: \"Pre-workshop instructions\"\n---\n\n\nPrior to the workshop, please decide whether you would like to use your own setup or use Posit Cloud. Then, follow the steps accordingly.\n\n## Own setup\n\nIf you would like to use your own setup, please complete the following steps prior to the workshop:\n\n-   Download and install the latest versions of R, RStudio, and Quarto:\n\n    -   R `4.2` or above: <https://cran.r-project.org>\n    -   RStudio `2023.03.1+446` or above: <https://posit.co/download/rstudio-desktop>\n    -   Quarto `1.3.354` or above: <https://quarto.org/docs/get-started>\n\n-   Install the following packages:\n\n\n::: {.cell}\n\n```{.r .cell-code}\npkg_list <- c(\n  \"tidyverse\", \"gt\", \"ggthemes\", \"palmerpenguins\", \"quarto\", \"here\"\n)\ninstall.packages(pkg_list)\n```\n:::\n\n\n-   Download `exercises.zip` at <https://mine.quarto.pub/quarto-monash/exercises.zip> and unzip it on your Desktop or somewhere you can easily locate on your computer. Then, go to RStudio \\> File \\> New Project \\> Existing Directory and navigate to the unzipped `exercises` folder and create an RStudio project in there and open it.\n\n## Posit Cloud\n\nIf you would like to use Posit Cloud, [click here to join the Posit Cloud space for the workshop](https://posit.cloud/spaces/381590/join?access_code=Ls8BhVUk--q9R03Bzadl4KUkkURdcXtGUwOjExWT).\n",
+    "supporting": [
+      "pre-work_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
