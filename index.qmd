@@ -11,7 +11,7 @@ Quarto is the next generation of R Markdown for publishing, including dynamic an
 
 🕣 11:00 - 15:00
 
-🏢 St. Louis Union Station Hotel
+🏢 Room GG01, 33 Innovation Walk (Learning Village)
 
 | Time          | Module                            |
 |---------------|-----------------------------------|
